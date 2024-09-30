@@ -6,7 +6,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 1249e04d-00ac-46cd-b9dd-fee0031e57b7
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: DataIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -27,7 +27,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 4a7d9539-f1f1-4367-b65a-c4eb5b413d68
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: DataOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -44,7 +44,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 313cf3f7-af49-42d3-babc-ff444d79220b
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -75,7 +75,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: d38cbaf0-2636-42ad-be5e-a341545850c3
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -84,7 +84,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: ce330fdd-2178-4358-847d-bbe0abd0fb1a
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoDecrescenteNome
 
 		annotation SummarizationSetBy = Automatic
@@ -93,7 +93,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 86c8cfc9-4d7f-4edc-bacb-48ebed3a65a1
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoDecrescenteNum
 
 		annotation SummarizationSetBy = Automatic
@@ -102,7 +102,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 5998afdb-f9ff-4d95-83a9-250ef0207ff8
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoFiscal
 
 		annotation SummarizationSetBy = Automatic
@@ -111,7 +111,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 40c210ad-8937-4aa8-b356-53e1e5715679
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -128,7 +128,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: fafec9bb-f8e3-443e-ba40-e383e7e2e82a
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: DiaDoMesNum
 
 		annotation SummarizationSetBy = Automatic
@@ -137,7 +137,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 1916a4a3-1aff-4c0d-97bc-008faa676619
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: DiaDoAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -146,7 +146,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 3e6d0a36-050a-4c4b-8ea1-ba181672716c
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: DiaDaSemanaNum
 
 		annotation SummarizationSetBy = Automatic
@@ -179,7 +179,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: e2cf3374-6566-4840-9040-0dc8c3249d8e
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesNum
 
 		annotation SummarizationSetBy = Automatic
@@ -212,7 +212,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 4b6d476e-81b2-4a83-bc45-5679214e20dc
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -229,7 +229,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: b9e6368e-54c8-4a82-b873-f41d060a2aa6
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesDiaNum
 
 		annotation SummarizationSetBy = Automatic
@@ -268,7 +268,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 9c60844b-8a55-4c6d-b293-d86ff58c4747
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -277,7 +277,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 7a43a4bd-8816-4039-951f-7f457f6129a4
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -310,7 +310,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 699d6be9-73c8-4ffb-8ea8-60ed83637b39
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: TrimestreNum
 
 		annotation SummarizationSetBy = Automatic
@@ -341,7 +341,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: f31565da-ed6f-4efa-965d-6d73eeef3030
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: TrimestreAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -358,7 +358,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: a337a77c-2a2a-4764-99e2-af5a3bcc0401
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: TrimestreIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -367,7 +367,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 0dacd829-69ca-46b6-b6a1-b5efa810d7a6
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: TrimestreOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -384,7 +384,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: c0f4d977-d80d-40e3-a3cc-0d936bc22159
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaIsoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -393,7 +393,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 2e8c5207-0258-4b0a-8556-3ba50954eb90
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoIsoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -402,7 +402,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 3118952e-e278-4e03-a1fd-d14d2c5f2c09
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaIsoAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -441,7 +441,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 55d5be1c-4d2e-4de9-9847-bae933cbc979
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaIsoIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -450,7 +450,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: ae7e1594-f4b5-4e01-b361-3791e51b6321
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaIsoOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -467,7 +467,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: e829a2bd-f94e-480f-b50c-1a5b720aa6b9
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaNum
 
 		annotation SummarizationSetBy = Automatic
@@ -476,7 +476,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 9a682875-107f-4d61-95e7-d3287de921d2
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -523,7 +523,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: a63861b6-89dd-438d-9b97-f2bd1f230147
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -532,7 +532,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 988977b6-1982-4f8d-b94e-7b3cfceba185
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -549,7 +549,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: d36670bd-f77b-4d15-9d6a-e0d4eaba7965
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaDoMesNum
 
 		annotation SummarizationSetBy = Automatic
@@ -558,7 +558,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: a93b7055-e995-4175-aca7-d92f14f8c2ac
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoSemanalNum
 
 		annotation SummarizationSetBy = Automatic
@@ -567,7 +567,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 1d683490-611e-4083-9b68-4785e5d9a2f5
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesSemanalNum
 
 		annotation SummarizationSetBy = Automatic
@@ -592,7 +592,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 27bcda72-8342-4a28-80ab-8add518fbe32
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesAnoSemanalNum
 
 		annotation SummarizationSetBy = Automatic
@@ -609,7 +609,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 1ba5c83c-f943-47d0-a4ef-517b732c9bb2
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaDoMesPadraoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -626,7 +626,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: dd69574b-dc9c-4c80-933a-a6cb20f3c16d
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemanaDoMesAnoPadraoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -635,7 +635,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 781c0dca-183b-4e3e-9f40-c87acfd12557
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: QuinzenaDoMesNum
 
 		annotation SummarizationSetBy = Automatic
@@ -644,7 +644,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: d879aeae-aceb-4beb-bf5e-1468565475a5
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: QuinzenaMesNum
 
 		annotation SummarizationSetBy = Automatic
@@ -661,7 +661,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 4a07bb5b-5d1e-4ef3-a529-8237a3cbe11f
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: QuinzenaMesAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -686,7 +686,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: f89c1875-3cea-4b53-bb79-93e648c5a386
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: QuinzenaIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -695,7 +695,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 89746fa0-2749-49c2-acf7-d2043589e76c
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: QuinzenaOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -712,7 +712,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 555ddbd6-d3c6-46a9-8826-f6e12a06cacb
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemestreDoAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -721,7 +721,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 44cb207f-23d2-4a76-bcf1-20bc1c29c3b3
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemestreAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -738,7 +738,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: a45d54ce-e72f-4ba5-bc6e-ec9b23b5c2e5
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemestreIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -747,7 +747,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: bc823096-afc4-4c59-a11a-3e226bc63aa4
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SemestreOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -764,7 +764,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 460db7fd-cc1c-49c7-82b5-d73376c24835
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: BimestreDoAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -773,7 +773,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 89ed0f82-951d-467e-9928-5fc15ac63d12
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: BimestreAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -790,7 +790,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 94de63c0-2793-4681-abea-52c6c10a6098
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: BimestreIndice
 
 		annotation SummarizationSetBy = Automatic
@@ -799,7 +799,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 52dd74a7-8c89-4d0c-8882-1c1bc0f2dd5a
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: BimestreOffset
 
 		annotation SummarizationSetBy = Automatic
@@ -824,7 +824,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: b2835b90-115e-43ab-9ba0-35134acf08aa
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: DiaUtilNum
 
 		annotation SummarizationSetBy = Automatic
@@ -841,7 +841,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 2ca77985-cbe0-4bb2-afc8-6c53f4179e91
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: EstacaoAnoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -858,7 +858,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 4ac8c5de-a5b8-461c-97d8-cef08b839ad9
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesFechamentoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -883,7 +883,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: aa5b5b10-d5c5-477f-8bac-7a2dbd7fbe50
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: AnoFechamentoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -892,7 +892,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 7b20c32b-b1d1-485b-8f11-69e774704e22
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MesAnoFechamentoNum
 
 		annotation SummarizationSetBy = Automatic
@@ -918,7 +918,7 @@ table dCalendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 866c13bb-0ee6-4a13-977f-7bef2ba247a5
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: DiaUtilDoMes
 
 		annotation SummarizationSetBy = Automatic
@@ -1654,9 +1654,9 @@ table dCalendario
 				        join 
 				            
 				in
-				    adDiaUtilMes 
-				
-				in dCalendario
+				    adDiaUtilMes
+				in
+				    dCalendario
 				```
 
 	annotation PBI_NavigationStepName = Navigation

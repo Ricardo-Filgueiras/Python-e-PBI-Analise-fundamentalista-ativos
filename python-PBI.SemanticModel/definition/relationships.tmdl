@@ -1,0 +1,4 @@
+relationship 78317352-1325-874f-8e74-2c1d3035aac7
+	fromColumn: cotacoes.Date
+	toColumn: dCalendario.Data
+
