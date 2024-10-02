@@ -1,45 +1,60 @@
-table cotacoes
+table fCotacoes
 	lineageTag: e5a83ff7-2b13-4589-afe2-15491c1b4ecd
 
 	column Date
-		dataType: string
+		dataType: dateTime
+		formatString: Long Date
 		lineageTag: c054ba7e-9271-4aac-9eb1-43db98504933
 		summarizeBy: none
 		sourceColumn: Date
 
 		annotation SummarizationSetBy = Automatic
 
+		annotation UnderlyingDateTimeDataType = Date
+
 	column Open
-		dataType: string
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
 		lineageTag: 69e35bb7-6476-47a7-a055-6c4bb3ee69b2
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Open
 
 		annotation SummarizationSetBy = Automatic
 
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
 	column High
-		dataType: string
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
 		lineageTag: fb237714-6b51-4fa3-8773-427377367a57
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: High
 
 		annotation SummarizationSetBy = Automatic
 
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
 	column Low
-		dataType: string
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
 		lineageTag: 199a7c20-94ea-401b-9982-4e95d316f773
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Low
 
 		annotation SummarizationSetBy = Automatic
 
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
 	column Close
-		dataType: string
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
 		lineageTag: 4137177a-fd78-41fa-b961-c45416bdb248
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Close
 
 		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
 
 	column Ativo
 		dataType: string
@@ -49,14 +64,19 @@ table cotacoes
 
 		annotation SummarizationSetBy = Automatic
 
-	partition cotacoes = m
+	partition fCotacoes = m
 		mode: import
 		source =
 				let
 				    Source = Python.Execute("# Código completo da obtenção dos dados históricos das cotações da carteira de 01/08/2023 à 30/08/2024#(lf)#(lf)# Importando a biblioteca#(lf)import yfinance as yf#(lf)#(lf)# Definindo a carteira de ações#(lf)carteira_yf = ['ABEV3.SA', 'B3SA3.SA', 'ELET3.SA', 'GGBR4.SA', 'ITSA4.SA',#(lf)               'PETR4.SA', 'RENT3.SA', 'SUZB3.SA', 'VALE3.SA', 'WEGE3.SA']#(lf)#(lf)# Carregando os dados da carteira#(lf)df = yf.download(carteira_yf, start=""2023-08-01"", end=""2024-08-30"")#(lf)#(lf)# Passando os ativos para o multindex do df#(lf)cotacoes = df.stack(level=1)#(lf)#(lf)# Resetando os índices e renomenado a coluna dos ativos#(lf)cotacoes = cotacoes.reset_index().rename(columns={'Ticker': 'Ativo'})#(lf)#(lf)# Organizando o df#(lf)cotacoes = cotacoes[[""Date"", ""Open"", ""High"", ""Low"", ""Close"", ""Ativo""]]#(lf)#(lf)del carteira_yf, df"),
-				    cotacoes1 = Source{[Name="cotacoes"]}[Value]
+				    cotacoes1 = Source{[Name="cotacoes"]}[Value],
+				    #"Run Python script" = Python.Execute("# 'dataset' tem os dados de entrada para este script#(lf)import pandas as pd#(lf)#(lf)dataset[""Ativo""] = dataset[""Ativo""].apply(lambda x: x[:-3])",[dataset=cotacoes1]),
+				    dataset = #"Run Python script"{[Name="dataset"]}[Value],
+				    #"Changed Type" = Table.TransformColumnTypes(dataset,{{"Date", type datetime}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"Date", type date}}),
+				    #"Changed Type with Locale" = Table.TransformColumnTypes(#"Changed Type1", {{"Open", Currency.Type}, {"High", Currency.Type}, {"Low", Currency.Type}, {"Close", Currency.Type}}, "en-US")
 				in
-				    cotacoes1
+				    #"Changed Type with Locale"
 
 	annotation PBI_NavigationStepName = Navigation
 

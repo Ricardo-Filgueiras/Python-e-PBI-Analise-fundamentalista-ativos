@@ -12,10 +12,12 @@ annotation PBIDesktopVersion = 2.132.1053.0 (24.08)
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["dCalendario","cotacoes"]
+annotation PBI_QueryOrder = ["dCalendario","dAtivos","fCotacoes","fIndicadores"]
 
 ref table dCalendario
-ref table cotacoes
+ref table fCotacoes
+ref table fIndicadores
+ref table dAtivos
 
 ref cultureInfo pt-BR
 

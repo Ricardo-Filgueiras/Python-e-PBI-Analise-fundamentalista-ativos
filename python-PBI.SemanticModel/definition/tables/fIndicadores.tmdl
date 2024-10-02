@@ -1,0 +1,211 @@
+table fIndicadores
+	lineageTag: d9e06def-e290-4ed0-ad8b-b509d2330384
+
+	column Ativo
+		dataType: string
+		lineageTag: 98b878b3-f937-4f4d-932c-1a093a12463c
+		summarizeBy: none
+		sourceColumn: Ativo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Setor
+		dataType: string
+		lineageTag: f6ada125-fe51-4669-aab8-750037313d37
+		summarizeBy: none
+		sourceColumn: Setor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cotacao
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 0fad2bd1-c768-426f-a526-1bf819337f48
+		summarizeBy: sum
+		sourceColumn: Cotacao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Min_52_sem
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 71365543-b084-454f-abe9-031a659d9d9a
+		summarizeBy: sum
+		sourceColumn: Min_52_sem
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Max_52_sem
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 26277d26-8180-45ef-9788-d683bcee2ef0
+		summarizeBy: sum
+		sourceColumn: Max_52_sem
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Valor_de_mercado
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 43662b84-1ed1-4376-8635-7997ca6edec2
+		summarizeBy: sum
+		sourceColumn: Valor_de_mercado
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Nro_Acoes
+		dataType: double
+		lineageTag: d01e9269-00f3-4fc6-be37-b6f04a3fc77b
+		summarizeBy: sum
+		sourceColumn: Nro_Acoes
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Patrim_Liq
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 1a236d13-d594-4c2f-96b8-f8ae61e259a0
+		summarizeBy: sum
+		sourceColumn: Patrim_Liq
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Receita_Liquida_12m
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 7cc55fcd-6ea1-4293-be4c-c2d32d1e0000
+		summarizeBy: sum
+		sourceColumn: Receita_Liquida_12m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Receita_Liquida_3m
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: f131bbd3-5bbd-4ee0-b429-f190f2e25c62
+		summarizeBy: sum
+		sourceColumn: Receita_Liquida_3m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Lucro_Liquido_12m
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: ec0931b5-9ca7-4ed2-98fc-1ffee6475049
+		summarizeBy: sum
+		sourceColumn: Lucro_Liquido_12m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column Lucro_Liquido_3m
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: ded241aa-b7ba-458f-a383-068cddf88f98
+		summarizeBy: sum
+		sourceColumn: Lucro_Liquido_3m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column P/L
+		dataType: double
+		formatString: 0.00
+		lineageTag: c2b49207-c0a0-41d7-a955-6f490fd46040
+		summarizeBy: sum
+		sourceColumn: P/L
+
+		annotation SummarizationSetBy = Automatic
+
+	column DY
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 072b28b4-bf5e-4738-813d-2df5a428edc8
+		summarizeBy: sum
+		sourceColumn: DY
+
+		annotation SummarizationSetBy = Automatic
+
+	column P/VP
+		dataType: double
+		formatString: 0.00
+		lineageTag: aab655d9-be04-483e-a299-614d59f318c7
+		summarizeBy: sum
+		sourceColumn: P/VP
+
+		annotation SummarizationSetBy = Automatic
+
+	column ROE
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 231b97b7-2fd0-42a0-a114-6fefd0833baf
+		summarizeBy: sum
+		sourceColumn: ROE
+
+		annotation SummarizationSetBy = Automatic
+
+	column LPA
+		dataType: double
+		formatString: 0.00
+		lineageTag: a9794f7c-c3a5-4cc7-8105-24285de93df9
+		summarizeBy: sum
+		sourceColumn: LPA
+
+		annotation SummarizationSetBy = Automatic
+
+	column VPA
+		dataType: double
+		formatString: 0.00
+		lineageTag: 0552ba9b-dbb4-4ee1-a7ac-d722fe2c2031
+		summarizeBy: sum
+		sourceColumn: VPA
+
+		annotation SummarizationSetBy = Automatic
+
+	column Valor_Intrinseco
+		dataType: decimal
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 96224a25-c918-4d1e-bd2d-6b692cafcad7
+		summarizeBy: sum
+		sourceColumn: Valor_Intrinseco
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	partition fIndicadores = m
+		mode: import
+		source =
+				let
+				    Source = Python.Execute("# Importando as bibliotecas#(lf)import fundamentus#(lf)import pandas as pd#(lf)#(lf)# Definindo a carteira de ações#(lf)carteira_fund = [""ABEV3"", ""B3SA3"", ""ELET3"", ""GGBR4"", ""ITSA4"",#(lf)                 ""PETR4""]#(lf)#(lf)# Criando um df com algumas infos da carteira#(lf)ind = []#(lf)for papel in carteira_fund:#(lf)  df = fundamentus.get_papel(papel)[['Setor', 'Cotacao', 'Min_52_sem', 'Max_52_sem', 'Valor_de_mercado',#(lf)                                            'Nro_Acoes', 'Patrim_Liq','Receita_Liquida_12m','Receita_Liquida_3m',#(lf)                                            'Lucro_Liquido_12m', 'Lucro_Liquido_3m']]#(lf)  ind.append(df)#(lf)ind = pd.concat(ind)#(lf)#(lf)#(lf)# Passando o ticker para uma coluna#(lf)ind = ind.reset_index()#(lf)ind.rename(columns = {'index':'Ativo'}, inplace=True)#(lf)#(lf)# Alterando colunas object para numeric#(lf)colunas = ['Cotacao', 'Min_52_sem', 'Max_52_sem', 'Valor_de_mercado', 'Nro_Acoes', 'Patrim_Liq',#(lf)           'Receita_Liquida_12m', 'Receita_Liquida_3m', 'Lucro_Liquido_12m', 'Lucro_Liquido_3m']#(lf)ind[colunas] = ind[colunas].apply(pd.to_numeric, errors='coerce', axis=1)#(lf)#(lf)# Criando um novo df com alguns indicadores da carteira#(lf)ind_2 = fundamentus.get_resultado_raw().reset_index()#(lf)ind_2 = ind_2.query(""papel in @carteira_fund"")#(lf)ind_2 = ind_2[['papel','P/L', 'Div.Yield','P/VP','ROE']].reset_index(drop=True)#(lf)ind_2.rename(columns={'papel': 'Ativo','Div.Yield':'DY'}, inplace= True)#(lf)#(lf)# Concatenando os dfs em um só com as infos e indicadores#(lf)indicadores = pd.merge(ind, ind_2, on=""Ativo"")#(lf)#(lf)# Criando uma coluna para LPA (Lucro por Ação) e VPA (Valor Patrimonial por ação)#(lf)# para calcular a fórmula de Graham  Valor intrínseco de uma ação (VI = √22,5 x LPA x VPA)#(lf)indicadores[""LPA""] = (indicadores[""Lucro_Liquido_12m""] / indicadores [""Nro_Acoes""]).round(2)#(lf)indicadores[""VPA""] = (indicadores[""Patrim_Liq""] / indicadores [""Nro_Acoes""]).round(2)#(lf)#(lf)del ind, ind_2, carteira_fund, colunas"),
+				    indicadores1 = Source{[Name="indicadores"]}[Value],
+				    #"Run Python script" = Python.Execute("# 'dataset' tem os dados de entrada para este script#(lf)#(lf)#(lf)import numpy as np#(lf)#(lf)dataset[""Valor_Intrinseco""] = np.sqrt(22.5*dataset[""LPA""]*dataset[""VPA""]).round(2)",[dataset=indicadores1]),
+				    dataset = #"Run Python script"{[Name="dataset"]}[Value],
+				    #"Changed Type with Locale" = Table.TransformColumnTypes(dataset, {{"Cotacao", type number}, {"Min_52_sem", type number}, {"Max_52_sem", type number}, {"Valor_de_mercado", type number}, {"Nro_Acoes", type number}, {"Patrim_Liq", type number}, {"Receita_Liquida_12m", type number}, {"Receita_Liquida_3m", type number}, {"Lucro_Liquido_12m", type number}, {"Lucro_Liquido_3m", type number}, {"P/L", type number}, {"P/VP", type number}, {"LPA", type number}, {"VPA", type number}, {"Valor_Intrinseco", type number}}, "en-US"),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Changed Type with Locale",{{"Cotacao", Currency.Type}, {"Min_52_sem", Currency.Type}, {"Max_52_sem", Currency.Type}, {"Valor_de_mercado", Currency.Type}, {"Patrim_Liq", Currency.Type}, {"Receita_Liquida_12m", Currency.Type}, {"Receita_Liquida_3m", Currency.Type}, {"Lucro_Liquido_12m", Currency.Type}, {"Lucro_Liquido_3m", Currency.Type}, {"Valor_Intrinseco", Currency.Type}}),
+				    #"Changed Type with Locale1" = Table.TransformColumnTypes(#"Changed Type", {{"DY", Percentage.Type}, {"ROE", Percentage.Type}}, "en-US")
+				in
+				    #"Changed Type with Locale1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
