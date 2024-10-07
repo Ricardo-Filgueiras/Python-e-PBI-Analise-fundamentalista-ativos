@@ -2,7 +2,5 @@
   "version": "1.0",
   "autodetectRelationships": true,
   "parallelQueryLoading": true,
-  "relationshipImportEnabled": true,
-  "runBackgroundAnalysis": true,
-  "shouldNotifyUserOfNameConflictResolution": true
+  "relationshipImportEnabled": true
 }
