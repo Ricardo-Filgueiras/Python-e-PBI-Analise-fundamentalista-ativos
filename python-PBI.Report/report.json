@@ -34,54 +34,117 @@
   "sections": [
     {
       "config": "{}",
-      "displayName": "Página 1",
+      "displayName": "Página Inicial",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
       "name": "6ffd6a6904a7083c884c",
       "visualContainers": [
         {
-          "config": "{\"name\":\"1574556c19a317d28ef7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":41.11111111111111,\"y\":376.6666666666667,\"z\":2000,\"width\":370,\"height\":127.77777777777777,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(fIndicadores.Cotacao)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Cotacao\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Cotacao)\",\"NativeReferenceName\":\"Soma de Cotacao\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Cotacao\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "config": "{\"name\":\"10bdb47186301b958f32\",\"layouts\":[{\"id\":0,\"position\":{\"x\":958.502886002886,\"y\":171.57106782106786,\"z\":5000,\"width\":283.52092352092353,\"height\":99.74025974025975,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(fIndicadores.Valor_Intrinseco)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Valor_Intrinseco\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Valor_Intrinseco)\",\"NativeReferenceName\":\"Valor Intrinseco\"}]},\"autoSelectVisualType\":true,\"columnProperties\":{\"Sum(fIndicadores.Valor_Intrinseco)\":{\"displayName\":\"Valor Intrinseco\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"21D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
           "filters": "[]",
-          "height": 127.78,
-          "width": 370.00,
-          "x": 41.11,
-          "y": 376.67,
+          "height": 99.74,
+          "width": 283.52,
+          "x": 958.50,
+          "y": 171.57,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"1574556c19a317d28ef7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":631.25,\"y\":52.5,\"z\":2000,\"width\":313.75,\"height\":108.75,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(fIndicadores.Cotacao)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Cotacao\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Cotacao)\",\"NativeReferenceName\":\"Cotacao\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Cotacao\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(fIndicadores.Cotacao)\":{\"displayName\":\"Cotacao\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 108.75,
+          "width": 313.75,
+          "x": 631.25,
+          "y": 52.50,
           "z": 2000.00
         },
         {
-          "config": "{\"name\":\"773b3de0bb9347e7e9ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":41.42857142857143,\"y\":214.2857142857143,\"z\":1000,\"width\":370,\"height\":128.57142857142858,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(fIndicadores.Setor)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Setor\"}},\"Function\":3},\"Name\":\"Min(fIndicadores.Setor)\",\"NativeReferenceName\":\"Primeiro Setor\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "config": "{\"name\":\"5f6edbc0c74280313815\",\"layouts\":[{\"id\":0,\"position\":{\"x\":35,\"y\":407.5,\"z\":8000,\"width\":560,\"height\":233.75,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(fIndicadores.Receita_Liquida_3m)\"},{\"queryRef\":\"Sum(fIndicadores.Lucro_Liquido_3m)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Receita_Liquida_3m\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Receita_Liquida_3m)\",\"NativeReferenceName\":\"Receita Liquida 3 meses\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Lucro_Liquido_3m\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Lucro_Liquido_3m)\",\"NativeReferenceName\":\"Lucro Liquida 3 meses\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Receita_Liquida_3m\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(fIndicadores.Receita_Liquida_3m)\":{\"displayName\":\"Receita Liquida 3 meses\"},\"Sum(fIndicadores.Lucro_Liquido_3m)\":{\"displayName\":\"Lucro Liquida 3 meses\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleFontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(fIndicadores.Lucro_Liquido_3m)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#3C8048'\"}}}}}},\"selector\":{\"metadata\":\"Sum(fIndicadores.Receita_Liquida_3m)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Últimos 3 Meses'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"18D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
           "filters": "[]",
-          "height": 128.57,
-          "width": 370.00,
-          "x": 41.43,
-          "y": 214.29,
+          "height": 233.75,
+          "width": 560.00,
+          "x": 35.00,
+          "y": 407.50,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"6761550a4b9f5dee2784\",\"layouts\":[{\"id\":0,\"position\":{\"x\":30,\"y\":42.5,\"z\":8002,\"width\":578.75,\"height\":93.75,\"tabOrder\":8002}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Principais indicadores de Mercado.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\"}}]},{\"textRuns\":[{\"value\":\"Valores Não atualizados Diariamente\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 93.75,
+          "width": 578.75,
+          "x": 30.00,
+          "y": 42.50,
+          "z": 8002.00
+        },
+        {
+          "config": "{\"name\":\"773b3de0bb9347e7e9ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":958.115763546798,\"y\":52.7155172413793,\"z\":1000,\"width\":283.74384236453204,\"height\":109.06403940886699,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(fIndicadores.Setor)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Setor\"}},\"Function\":3},\"Name\":\"Min(fIndicadores.Setor)\",\"NativeReferenceName\":\"Setor\"}]},\"columnProperties\":{\"Min(fIndicadores.Setor)\":{\"displayName\":\"Setor\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 109.06,
+          "width": 283.74,
+          "x": 958.12,
+          "y": 52.72,
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"a98a8331d5c4cc63fcbf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":965.5555555555555,\"y\":18.88888888888889,\"z\":0,\"width\":283.3333333333333,\"height\":114.44444444444444,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"fIndicadores.Ativo\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"},\"Name\":\"fIndicadores.Ativo\",\"NativeReferenceName\":\"Ativo\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'PETR4'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}]}}}",
+          "config": "{\"name\":\"7ca17c4c624b8e965646\",\"layouts\":[{\"id\":0,\"position\":{\"x\":957.5,\"y\":283.75,\"z\":7000,\"width\":283.75,\"height\":101.25,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(fIndicadores.P/VP)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"P/VP\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.P/VP)\",\"NativeReferenceName\":\"P/VP\"}]},\"columnProperties\":{\"Sum(fIndicadores.P/VP)\":{\"displayName\":\"P/VP\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"21D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 101.25,
+          "width": 283.75,
+          "x": 957.50,
+          "y": 283.75,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"a6c75a5615aeabd136cf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":632.5,\"y\":171.57106782106786,\"z\":4000,\"width\":313.0735930735931,\"height\":100.66378066378067,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(fIndicadores.Valor_de_mercado)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Valor_de_mercado\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Valor_de_mercado)\",\"NativeReferenceName\":\"Soma de Valor_de_mercado\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Valor_de_mercado\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(fIndicadores.Valor_de_mercado)\":{\"displayName\":\"Valor de Mercado\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"21D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 100.66,
+          "width": 313.07,
+          "x": 632.50,
+          "y": 171.57,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"a98a8331d5c4cc63fcbf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":30,\"y\":161.25,\"z\":0,\"width\":283.75,\"height\":101.25,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"fIndicadores.Ativo\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"},\"Name\":\"fIndicadores.Ativo\",\"NativeReferenceName\":\"Ativo\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'ELET3'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}]}}}",
           "filters": "[{\"name\":\"876fcf372f8ea6b95cf7\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"fIndicadores\"}},\"Property\":\"Ativo\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
-          "height": 114.44,
-          "width": 283.33,
-          "x": 965.56,
-          "y": 18.89,
+          "height": 101.25,
+          "width": 283.75,
+          "x": 30.00,
+          "y": 161.25,
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"c34c302f72616e26e8c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":441.1111111111111,\"y\":214.44444444444443,\"z\":2001,\"width\":558.8888888888889,\"height\":127.77777777777777,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(fIndicadores.Min_52_sem)\"},{\"queryRef\":\"Sum(fIndicadores.Max_52_sem)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Max_52_sem\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Max_52_sem)\",\"NativeReferenceName\":\"Soma de Max_52_sem\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Min_52_sem\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Min_52_sem)\",\"NativeReferenceName\":\"Soma de Min_52_sem\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Min_52_sem\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "config": "{\"name\":\"c34c302f72616e26e8c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":30,\"y\":273.75,\"z\":3000,\"width\":560,\"height\":101.25,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(fIndicadores.Min_52_sem)\"},{\"queryRef\":\"Sum(fIndicadores.Max_52_sem)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Max_52_sem\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Max_52_sem)\",\"NativeReferenceName\":\"Maxima 52 semanas\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Min_52_sem\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Min_52_sem)\",\"NativeReferenceName\":\"Minima 52 semanas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Min_52_sem\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(fIndicadores.Min_52_sem)\":{\"displayName\":\"Minima 52 semanas\"},\"Sum(fIndicadores.Max_52_sem)\":{\"displayName\":\"Maxima 52 semanas\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"21D\"}}}},\"selector\":{\"id\":\"default\"}}]}}}",
           "filters": "[]",
-          "height": 127.78,
-          "width": 558.89,
-          "x": 441.11,
-          "y": 214.44,
-          "z": 2001.00
+          "height": 101.25,
+          "width": 560.00,
+          "x": 30.00,
+          "y": 273.75,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"d7d810b06273eefac554\",\"layouts\":[{\"id\":0,\"position\":{\"x\":632.5,\"y\":283.75,\"z\":6000,\"width\":312.5,\"height\":101.25,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(fIndicadores.P/L)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"P/L\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.P/L)\",\"NativeReferenceName\":\"P/L \"}]},\"autoSelectVisualType\":true,\"columnProperties\":{\"Sum(fIndicadores.P/L)\":{\"displayName\":\"P/L \"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"21D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 101.25,
+          "width": 312.50,
+          "x": 632.50,
+          "y": 283.75,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"e6f7d68100ba50a4ab5a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":632.5,\"y\":407.5,\"z\":8001,\"width\":611.25,\"height\":233.75,\"tabOrder\":8001}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(fIndicadores.Receita_Liquida_12m)\"},{\"queryRef\":\"Sum(fIndicadores.Lucro_Liquido_12m)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Lucro_Liquido_12m\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Lucro_Liquido_12m)\",\"NativeReferenceName\":\"Lucro Liquida 12 meses\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Receita_Liquida_12m\"}},\"Function\":0},\"Name\":\"Sum(fIndicadores.Receita_Liquida_12m)\",\"NativeReferenceName\":\"Receita Liquida 12 meses\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Receita_Liquida_12m\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(fIndicadores.Lucro_Liquido_12m)\":{\"displayName\":\"Lucro Liquida 12 meses\"},\"Sum(fIndicadores.Receita_Liquida_12m)\":{\"displayName\":\"Receita Liquida 12 meses\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleFontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"zoom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#3C8048'\"}}}}}},\"selector\":{\"metadata\":\"Sum(fIndicadores.Receita_Liquida_12m)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(fIndicadores.Lucro_Liquido_12m)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Últimos 12 Meses'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"18D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 233.75,
+          "width": 611.25,
+          "x": 632.50,
+          "y": 407.50,
+          "z": 8001.00
         }
       ],
       "width": 1280.00
     },
     {
       "config": "{}",
-      "displayName": "Página 2",
+      "displayName": "Explicando os Indicadores",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
@@ -89,13 +152,22 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"aee2ef8cad20731381af\",\"layouts\":[{\"id\":0,\"position\":{\"x\":469.5,\"y\":143,\"width\":300,\"height\":300,\"z\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"fIndicadores.Ativo\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fIndicadores\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"},\"Name\":\"fIndicadores.Ativo\",\"NativeReferenceName\":\"Ativo\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Ativo\"}}}]},\"autoSelectVisualType\":true,\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"56c65281be00d1b346bf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":14.444444444444445,\"y\":15.555555555555555,\"z\":0,\"width\":727.7777777777777,\"height\":65.55555555555556,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Explicando os Indicadores Fundamentalistas.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
-          "height": 300.00,
-          "width": 300.00,
-          "x": 469.50,
-          "y": 143.00,
+          "height": 65.56,
+          "width": 727.78,
+          "x": 14.44,
+          "y": 15.56,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"bac0fd72bc23683f5906\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.75,\"y\":80,\"z\":1000,\"width\":626.25,\"height\":618.75,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Cartão P/L \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\"}},{\"value\":\"(\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#333333\"}},{\"value\":\"Preço da ação / Lucro por ação)\",\"textStyle\":{\"fontSize\":\"14pt\",\"color\":\"#333333\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"O P/L é a razão referente ao preço que você paga por uma ação e o lucro que recebe, ou seja, representa quanto o mercado está disposto a pagar pelo lucro de uma empresa.\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Cartão P/VP (\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#333333\"}},{\"value\":\"Preço sobre Valor Patrimonia\",\"textStyle\":{\"fontSize\":\"14pt\",\"color\":\"#333333\"}},{\"value\":\")\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#333333\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"O \",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#333333\"}},{\"value\":\"P/VP\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#333333\"}},{\"value\":\" também é a razão do preço, porém sobre o valor patrimonial da empresa. Ele representa o quanto pagamos pelo patrimônio da empresa, ou seja, se tivermos valores abaixo de 1, significa que estamos pagando menos do que a empresa vale.\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#333333\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Cartão \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#333333\"}},{\"value\":\"Dividend Yield \\\"DY\\\"\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontStyle\":\"italic\",\"fontSize\":\"14pt\",\"color\":\"#333333\"}},{\"value\":\" \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontStyle\":\"italic\",\"fontSize\":\"14pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"O \",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#333333\"}},{\"value\":\"Dividend Yield\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#333333\"}},{\"value\":\" é a relação entre o lucro repassado da empresa para a pessoa investidora, que são os dividendos pagos conforme o preço da ação.\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#333333\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Cartão ROE\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#333333\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"ROE\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#333333\"}},{\"value\":\" significa Retorno sobre o Patrimônio. Isso significa que, ele mede a eficiência de uma empresa em gerar lucro em relação aos ativos e passivos, ou seja, o quanto a empresa consegue lucrar com seu próprio patrimônio. Sendo assim, quanto maior o ROE, mais a empresa gera lucro com seus próprios patrimônios.\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#333333\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 618.75,
+          "width": 626.25,
+          "x": 13.75,
+          "y": 80.00,
+          "z": 1000.00
         }
       ],
       "width": 1280.00
