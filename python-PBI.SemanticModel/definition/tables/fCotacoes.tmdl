@@ -3,14 +3,16 @@ table fCotacoes
 
 	column Date
 		dataType: dateTime
-		formatString: Long Date
+		formatString: yyyy-mm-dd hh:nn:ss
 		lineageTag: c054ba7e-9271-4aac-9eb1-43db98504933
 		summarizeBy: none
 		sourceColumn: Date
 
+		changedProperty = DataType
+
 		annotation SummarizationSetBy = Automatic
 
-		annotation UnderlyingDateTimeDataType = Date
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
 
 	column Open
 		dataType: decimal
