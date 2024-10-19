@@ -4,7 +4,7 @@ Nesse Porjeto vamos explorar a possibilidades de usar python dentro do Power BI
 E no final agregar valor as analises de Ativos da Bolsa/B3.
 
 ## Imagens Ilustrativas
-
+![image](https://github.com/user-attachments/assets/5d939443-f271-4c61-9df0-e3936860b1a5)
 
 
 ## Links Relacionados 
