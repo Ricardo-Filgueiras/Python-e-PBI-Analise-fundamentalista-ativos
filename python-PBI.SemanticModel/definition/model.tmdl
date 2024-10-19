@@ -8,16 +8,14 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
-annotation PBIDesktopVersion = 2.132.1053.0 (24.08)
+annotation PBIDesktopVersion = 2.132.908.0 (24.08)
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["dCalendario","dAtivos","fCotacoes","fIndicadores","Medidas"]
+annotation PBI_QueryOrder = ["fCotacoes","fIndicadores","Medidas"]
 
-ref table dCalendario
 ref table fCotacoes
 ref table fIndicadores
-ref table dAtivos
 ref table Medidas
 
 ref cultureInfo pt-BR

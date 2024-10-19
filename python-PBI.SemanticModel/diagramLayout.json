@@ -10,19 +10,6 @@
       "nodes": [
         {
           "location": {
-            "x": 70,
-            "y": 30
-          },
-          "nodeIndex": "dCalendario",
-          "nodeLineageTag": "e398beb0-e8b1-44ad-a33b-07d738996e34",
-          "size": {
-            "height": 300,
-            "width": 234
-          },
-          "zIndex": 0
-        },
-        {
-          "location": {
             "x": 869.45787554147535,
             "y": 651.79059721773319
           },
@@ -43,19 +30,6 @@
           "nodeLineageTag": "d9e06def-e290-4ed0-ad8b-b509d2330384",
           "size": {
             "height": 300,
-            "width": 234
-          },
-          "zIndex": 0
-        },
-        {
-          "location": {
-            "x": 579,
-            "y": 291.5
-          },
-          "nodeIndex": "dAtivos",
-          "nodeLineageTag": "67df3e82-01eb-4379-87ae-1a2dae1250a5",
-          "size": {
-            "height": 104,
             "width": 234
           },
           "zIndex": 0
