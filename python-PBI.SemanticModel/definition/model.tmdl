@@ -8,7 +8,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
-annotation PBIDesktopVersion = 2.132.908.0 (24.08)
+annotation PBIDesktopVersion = 2.136.1478.0 (24.09)
 
 annotation PBI_ProTooling = ["DevMode"]
 
